@@ -21,11 +21,13 @@
      *      }
      *
      */
-    "frameworks": {
+    "frameworks": {        
         "ext": {
             "path":"ext",
-            "version":"6.2.1.92"
+            "version":"6.5.0"
         }
+
+        
     },
 
     /**
