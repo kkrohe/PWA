@@ -60,7 +60,7 @@ $person-header-picture-size: dynamic(150px);
 
     .person-extra {
         @include border-radius;
-        background-color: contrasted($background-color, 4%);
+        //background-color: contrasted($background-color, 4%);
         padding: 0.3em 0.6em;
     }
 

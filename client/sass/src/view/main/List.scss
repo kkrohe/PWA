@@ -72,9 +72,9 @@
         }
 
         .content {
-            @include st-box;
-            @include st-box-align(center);
-            @include st-box-orient(horizontal);
+            display: flex;
+            align-items: center;
+            flex-direction: row;
             padding: 1.15em;
         }
 

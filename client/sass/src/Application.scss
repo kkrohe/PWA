@@ -120,11 +120,11 @@ body.launching #appLoadingIndicator {
         }
 
         > .x-inner {
-            @include st-box;
-            @include st-box-orient(horizontal);
+            display: flex;
+            flex-direction: row;
 
             > .blocks-column:nth-child(1) {
-                @include st-box-flex(1, 0);
+                flex: 1 1 0;
             }
 
             > .blocks-column:nth-child(2) {
@@ -139,7 +139,7 @@ body.launching #appLoadingIndicator {
             }
 
             @media screen and (max-width: 600px) {
-                @include st-box-orient(vertical);
+                flex-direction: column;
             }
         }
     }
